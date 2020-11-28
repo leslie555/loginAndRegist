@@ -12,8 +12,7 @@ import FeedbackList from './FeedbackList';
 
 class Feedback extends React.Component{
   UNSAFE_componentWillMount(){
-    console.log('原来在2018年就在使用unsafe了');
-    console.log('现在我使用sourcetree提交了');
+    console.log('原来在2018年就在使用unsafe了')
     const {feedbackArr, dispatch} = this.props;
     if(!feedbackArr) {
       global.myFetch({url: global.serverBaseUrl+'/Myusers/me/feedbacks'})
