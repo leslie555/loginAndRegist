@@ -11,7 +11,7 @@ import async from 'async';
 
 class AddImgDialog extends React.Component{
   render() {
-    console.log('AddImgDialog rendered!');
+    console.log('test source tree fetch and merge');
     const {
       open, multiple
     } = this.props;
