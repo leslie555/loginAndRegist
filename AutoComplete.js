@@ -12,6 +12,7 @@ import { withStyles } from '@material-ui/core/styles';
 function renderInputComponent(inputProps) {
   const { classes, inputRef = () => {}, ref, ...other } = inputProps;
   console.log(`test merge local branch hahahah`);
+  console.log('just add dont commit');
   return (
     <TextField
       fullWidth
