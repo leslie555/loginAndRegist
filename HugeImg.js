@@ -8,7 +8,7 @@ class HugeImg extends React.Component {
   render(){
     const {hugeImgUrl, dispatch, classes} = this.props;
     if(!hugeImgUrl) return null;
-    console.log('hugeImg')
+    // console.log('1111111111111111111111111', hugeImgUrl)
     return (
       <div className={classes.hugImgBackground}
         onClick={()=>{dispatch({ type:'appModel/updateState',payload:{hugeImgUrl: undefined} });}}
