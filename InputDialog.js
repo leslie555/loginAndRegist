@@ -44,6 +44,7 @@ class InputDialog extends React.Component{
     },400)
   };
   handleInputChange=(e)=>{
+    console.log('c000000');
     const newText = e.target.value;
     this.props.dispatch({
       type: 'inputDialogModel/updateState', 
