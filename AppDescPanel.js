@@ -17,9 +17,6 @@ class AppDescPanel extends React.Component{
     return (
       <div>
         <div style={{backgroundColor:'#eee'}}>
-          {/*<div style={{display:'flex', justifyContent:'center'}}>
-            <Typography variant="h4">产品介绍</Typography>
-          </div>*/}
           <Grid container className={classNames(classes.descGrid,classes.wingBlank, classes.limitWidth)}>
             <Grid item sm={6} xs={12} className={classes.descHalfGrid}>
               <img src={appDescSearch} style={{width: isWidthUp('sm', width)? '80%':'120%'}}/>

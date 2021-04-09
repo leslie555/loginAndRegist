@@ -24,7 +24,7 @@ class Console extends React.Component {
       navigator.userAgent.toLowerCase().indexOf('chrome')<0
       &&navigator.userAgent.toLowerCase().indexOf('firefox')<0
     ){
-      alert('建议您使用新版的chrome87，使用其它浏览器可能出现错误哟！')
+      alert('建议您使用新版的chrome87，使用其它浏览器可能出现错误哟555！')
     }
   }
 
