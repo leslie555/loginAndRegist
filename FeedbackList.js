@@ -32,9 +32,11 @@ class TablePaginationActions extends React.Component {
 
   render() {
     const {  count, page,  } = this.props;
-    consosle.log('this is commit 1')
-    consosle.log('this is commit 2')
-    consosle.log('this is commit 3')
+    console.log('this is commit 1')
+    console.log('this is commit 2')
+    console.log('this is commit 3')
+    console.log('this is commit 4')
+    console.log('this is commit 5')
 
     return (
       <div style={{flexShrink:0}}>
