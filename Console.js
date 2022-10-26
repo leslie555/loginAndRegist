@@ -19,12 +19,12 @@ class Console extends React.Component {
   UNSAFE_componentWillMount(){
     console.log('dont merge')
     if(global.OS==='android'||global.OS==='ios') {
-      alert('本页面对手机浏览器的支持尚不友好，请使用电脑浏览器操作，推荐使用新版的火狐浏览器！')
+      alert('本页面对手机浏览器的支持尚不友好，请使用电脑浏览器操作，推荐使用新版的火狐浏览器222！')
     } else if(
       navigator.userAgent.toLowerCase().indexOf('chrome')<0
       &&navigator.userAgent.toLowerCase().indexOf('firefox')<0
     ){
-      alert('建议您使用新版的chrome87，使用其它浏览器可能出现错误哟！')
+      alert('建议您使用新版的chrome87，使用其它浏览器可能出现错误哟555！')
     }
   }
 
